@@ -1,0 +1,42 @@
+\documentclass{exam}
+\usepackage[utf8]{inputenc}
+\usepackage{amsmath}
+\usepackage{hyperref}
+ 
+\begin{document}
+\noindent
+\large\textbf{Artificial Intelligence 1} \hfill Supervisior: Marton Havasi \\
+\normalsize Lectures 5-8ish \hfill 08/05/2018
+
+\paragraph{Core questions (expected)}
+\begin{questions}
+\question Describe the gradient descent algorithm. Discuss its advantages and disadvantages. How can one set the step size? Is there any benefit to adapting the step size during optimization? (4 marks)
+
+\question $f$ is a twice differentiable function that we wish to minimize. The second order Taylor expansion of $f$ at point $x_n$ is
+
+$$f(x) \approx f(x_n) + \nabla f(x_n)\Delta x + \frac{1}{2}\nabla ^2 f(x_n)\Delta x^2$$
+
+Newton's optimization method uses the Hessian matrix ($H$) for the update rule:
+
+$$x_{n+1} = x_n - H^{-1}\nabla f(x_n)$$
+
+Derive this update rule from the Taylor expansion. (4 marks)
+
+Relate this method to the gradient descent algorithm. (2 marks)
+
+How and why might one choose to include a step-size in the update equation? (2 marks)
+
+\question CSP: 2014 paper 4 question 2 \href{http://www.cl.cam.ac.uk/teaching/exams/pastpapers/y2014p4q2.pdf}{Link} (20 marks)
+
+\question KR\&R: 2010 paper 4 question 2 \href{http://www.cl.cam.ac.uk/teaching/exams/pastpapers/y2010p4q2.pdf}{Link} (20 marks)
+
+\end{questions}
+
+\paragraph{Tryhard questions (highly recommended)}
+\begin{questions}
+\question KR\&R: 2006 paper 4 question 4 \href{http://www.cl.cam.ac.uk/teaching/exams/pastpapers/y2006p4q4.pdf}{Link} (20 marks)
+
+\end{questions}
+
+
+\end{document}
