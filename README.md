@@ -5,7 +5,10 @@ This repository contains the supervision work as well as general information abo
 ## Work
 
 [Supervision 1](supervision_1/supervision_1.pdf)
+
 [Supervision 2](supervision_2/supervision_2.pdf)
+
+[Supervision 3](supervision_3/supervision_3.pdf)
 
 ## General information:
 Booking
